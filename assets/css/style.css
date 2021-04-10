@@ -23,8 +23,9 @@ header {
 /* navbar */
 
 nav {
-    border-bottom: 1px solid #242c35;
-    margin-bottom: 6vh; 
+    border-bottom: 1px solid #242c35; 
+    position: fixed;
+    width: 100%;
 }
 header nav h2 {
     font-size: 1.5em;
@@ -46,6 +47,9 @@ header h1 {
     font-family: 'athene';
     font-weight: 400;
     margin: 0;
+}
+header h1:first-of-type {
+    padding-top: 15vh;
 }
 header h1::after {
     content: "";
