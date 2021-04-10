@@ -175,30 +175,30 @@ section h1:nth-of-type(2) {
 }
 .nameleft {
     width: 40%;
-    font-size: 3.2em;
+    font-size: 3.5em;
     font-family: 'athene';
     line-height: 5vh;
     position: relative;
-    bottom: 59vh;
-    left: 105px;
+    bottom: 57vh;
+    left: 4%;
 }
 .nameright {
-    font-size: 3.2em;
+    font-size: 3.5em;
     font-family: 'athene';
     text-align: right;
     line-height: 5vh; 
     position: relative;
-    bottom: 59vh;
-    right: 100px;
+    bottom: 57vh;
+    right: 5%;
 }
 figure img {
-    width: 55%;
+    width: 57%;
 }
 .figureleft {
-    padding-left: 6%;
+    padding-left: 4%;
 }
 .figureright {
-    padding-left: 39%; 
+    padding-left: 38%; 
 }
 
 /* F O O T E R */
