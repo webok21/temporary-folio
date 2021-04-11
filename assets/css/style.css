@@ -27,12 +27,12 @@ nav {
     position: fixed;
     width: 100%;
 }
-header nav h2 {
+nav h2 {
     font-size: 1.5em;
     font-weight: 300;
     display: inline-block;
 }
-header nav h2:first-of-type {
+nav h2:first-of-type {
     padding-right: 60%;
 }
 nav a {
@@ -84,12 +84,12 @@ header span {
 
 /* 1.section - RELEASE */
 
-section:first-of-type {
+#release {
     color: #282b29;
     font-weight: 100;
     background: #F4C4C4;
 }
-.pagenumber-odd {
+.page-odd {
     font-size: 1.3em;
     margin: 0;
     padding-top: 14vh;
@@ -118,27 +118,31 @@ table {
 }
 table td {
     border-bottom: 1px solid #282b29;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
 table tr:first-of-type {
     font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
 }
-table tr td:nth-of-type(2) {
+.td1 {
+    font-size: 1em;
+}
+.td2 {
     font-size: 1.6em;
     font-weight: bold;
-    padding-top: 5vh;
-    padding-bottom: 6vh;
 }
-table tr td:nth-of-type(3) {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-table tr td:last-of-type {
+.td3 {
     text-align: right;
     width: 6%;
     font-size: 1em;
     font-weight: bold;
 }
-section:first-of-type img {
+.principles {
+    padding: 0;
+}
+#release img {
     width: 9%; 
     padding: 13vh;
     position: relative;
@@ -147,12 +151,12 @@ section:first-of-type img {
 
 /* 2.section - WORKS */
 
-section:last-of-type {
+#works {
     color: #7d2222;
     background: #DEB873;
     padding-bottom: 5vh;
 } 
-.pagenumber-even {
+.page-even {
     font-size: 1.3em;
     margin: 0;
     padding-top: 14vh;
@@ -208,7 +212,7 @@ footer {
     font-weight: 300;
     background: #D2D2D2;
 }
-#footerarticle {
+#footer-article {
     font-size: 2em;
     line-height: 5vh;
     width: 30%;
