@@ -30,12 +30,13 @@ nav {
     position: fixed;
     width: 100%;
 }
-nav h2 {
+.nav-heading {
     font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     display: inline-block;
 }
-nav h2:first-of-type {
+.nav-heading:first-of-type {
     padding-right: 60%;
 }
 nav a {
