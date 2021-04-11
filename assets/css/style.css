@@ -93,7 +93,7 @@ header span {
     font-size: 1.3em;
     margin: 0;
     padding-top: 14vh;
-    padding-left: 8%;
+    padding-left: 7%;
 }
 .heading-odd {
     font-size: 13em;
@@ -157,7 +157,7 @@ table tr:first-of-type {
     font-size: 1.3em;
     margin: 0;
     padding-top: 14vh;
-    padding-left: 92%;
+    padding-left: 91%;
 }
 .heading-even {
     font-size: 13em;
@@ -179,13 +179,13 @@ section h1:nth-of-type(2) {
 .name-left {
     width: 40%;
     position: relative;
-    bottom: 57vh;
+    bottom: 60vh;
     left: 4%;
 }
 .name-right {
     text-align: right;
     position: relative;
-    bottom: 57vh;
+    bottom: 60vh;
     right: 4%;
 }
 figure img {
