@@ -48,18 +48,14 @@ nav a {
 
 header h1 {
     font-size: 13em;
-    margin: 0;
-}
-header h1:first-of-type {
-    padding-top: 15vh;
-}
-header h1::after {
-    content: "";
-    display: block;
     border-bottom: 1px solid #002a5a;
     width: 73%;
     margin: 0 auto;
 }
+header h1:first-of-type {
+    padding-top: 15vh;
+}
+
 header span:first-of-type {
     width: 20%;
     font-weight: lighter;
